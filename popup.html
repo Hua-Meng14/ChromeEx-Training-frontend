@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="popup.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arvo&family=Kanit:ital,wght@1,200&family=Outfit:wght@200&family=PT+Sans&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div class="main-container">
+        <div>
+            <!--First part balence and name user-->
+            <div class="balance-part">
+                <h2>Ben's Balance</h2>
+                <div class="user">
+                    <!--Logo for extension-->
+                    <div class="logo"><img src="" alt="logo" /></div>
+                    <!--User name-->
+                    <div class="name">Benjamin</div>
+                </div>
+            </div>
+            <!--amount of user money-->
+            <div class="value">$400.00</div>
+            <!--Total money-->
+            <div class="total">
+                <!--Income-->
+                <div class="income">
+                    <div class="p">Income</div>
+                    <div class="incomeTotal">$150</div>
+                </div>
+                <!--Expense-->
+                <div class="expense">
+                    <div class="p">Expense</div>
+                    <div class="exspenseTotal">$110</div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="header">
+                <h3>HISTORY</h3>
+            </div>
+            <div class="record-view">
+                <li class="list-container" id="income">
+                    <div>
+                        <div class="record-text">1. Salary Income</div>
+                        <span class="record-date">25 Dec 2021</span>
+                    </div>
+                    <span class="record-amount">+$150</span>
+                    <button class="record-delete-btn">
+                        <i class="fa fa-close"></i>
+                    </button>
+                </li>
+                <li class="list-container" id="expense">
+                    <div>
+                        <div class="record-text">2. Buy milk for my son</div>
+                        <span class="record-date">25 Dec 2021</span>
+                    </div>
+                    <span class="record-amount">-$80</span>
+                    <button class="record-delete-btn">
+                        <i class="fa fa-close"></i>
+                    </button>
+                </li>
+                <li class="list-container" id="expense">
+                    <div>
+                        <div class="record-text">3. Gasoline-1st week-Jan</div>
+                        <span class="record-date">1 Jan 2022</span>
+                    </div>
+                    <span class="record-amount">-$30</span>
+                    <button class="record-delete-btn">
+                        <i class="fa fa-close"></i>
+                    </button>
+                </li>
+                <li class="list-container" id="income">
+                    <div>
+                        <div class="record-text">1. Salary Income</div>
+                        <span class="record-date">25 Dec 2021</span>
+                    </div>
+                    <span class="record-amount">+$150</span>
+                    <button class="record-delete-btn">
+                        <i class="fa fa-close"></i>
+                    </button>
+                </li>
+                <li class="list-container" id="expense">
+                    <div>
+                        <div class="record-text">2. Buy milk for my son</div>
+                        <span class="record-date">25 Dec 2021</span>
+                    </div>
+                    <span class="record-amount">-$80</span>
+                    <button class="record-delete-btn">
+                        <i class="fa fa-close"></i>
+                    </button>
+                </li>
+                <li class="list-container" id="expense">
+                    <div>
+                        <div class="record-text">3. Gasoline-1st week-Jan</div>
+                        <span class="record-date">1 Jan 2022</span>
+                    </div>
+                    <span class="record-amount">-$30</span>
+                    <button class="record-delete-btn">
+                        <i class="fa fa-close"></i>
+                    </button>
+                </li>
+            </div>
+        </div>
+        <div>
+            <div class="header">
+                <h3>ADD TRANSACTION</h3>
+            </div>
+            <form class="form-container">
+                <div>
+                    <label class="label">TEXT</label><br />
+                    <input class="input-area" type="text" name="name" id="name"
+                        placeholder="  ENTER THE DESCRIPTION" /><br />
+
+                    <label class="label">NUMBER</label><br />
+                    <input class="input-area" type="number" name="number" id="number"
+                        placeholder="  ENTER THE AMOUNT" /><br />
+                </div>
+            </form>
+            <div class="footer">
+                <button class="btn1" type="button">INCOME</button>
+                <button class="btn2" type="button">EXPENSE</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
