@@ -22,27 +22,27 @@
         <div>
             <!--First part balence and name user-->
             <div class="balance-part">
-                <h2>Ben's Balance</h2>
+                <h2>Your Balance</h2>
                 <div class="user">
                     <!--Logo for extension-->
                     <div class="logo"><img src="" alt="logo" /></div>
                     <!--User name-->
-                    <div class="name">Benjamin</div>
+                    <div class="name" id="username">Benjamin</div>
                 </div>
             </div>
             <!--amount of user money-->
-            <div class="value">$400.00</div>
+            <div class="value" id="balance">$0.00</div>
             <!--Total money-->
             <div class="total">
                 <!--Income-->
                 <div class="income">
                     <div class="p">Income</div>
-                    <div class="incomeTotal">$150</div>
+                    <div class="incomeTotal" id="income-value">$0</div>
                 </div>
                 <!--Expense-->
                 <div class="expense">
                     <div class="p">Expense</div>
-                    <div class="exspenseTotal">$110</div>
+                    <div class="exspenseTotal" id="expense-value">$0</div>
                 </div>
             </div>
         </div>
@@ -132,6 +132,7 @@
                 <button class="btn1" type="button">INCOME</button>
                 <button class="btn2" type="button">EXPENSE</button>
             </div>
+            <script src="popup.js"></script>
         </div>
     </div>
 </body>
