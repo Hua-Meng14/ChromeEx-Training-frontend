@@ -55,6 +55,7 @@ body {
   font-size: 18px;
   border-color: whitesmoke;
   color: white;
+  cursor: pointer;
 }
 .balance-part {
   /* margin-top: 5px; */
@@ -131,6 +132,7 @@ body {
   color: #ffff;
   border-color: whitesmoke;
   margin-left: 25px;
+  cursor: pointer;
 }
 .btn2 {
   height: 15%;
@@ -141,6 +143,7 @@ body {
   color: #ffff;
   border-color: whitesmoke;
   margin-right: 25px;
+  cursor: pointer;
 }
 
 .form-container {

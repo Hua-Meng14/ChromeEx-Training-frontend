@@ -2,9 +2,11 @@
   "manifest_version": 2,
   "name": "Chrome Extension G3",
   "version": "1.0",
+  "background": {
+    "scripts": ["./popup.js"]
+  },
   "browser_action": {
-    "default_icon": "benten_icon.png",
-    "default_popup": "popup.html"
+    "default_popup": "./signin.html"
   },
   "permissions": []
 }
